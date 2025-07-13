@@ -28,15 +28,15 @@ int lightBuffer[avgWindow];
 int bufferIndex = 0;
 
 // === WiFi Credentials ===
-const char* ssid = "Sharief7 2.4G";
-const char* password = "@Shxriep7";
+const char* ssid = "WIFI-SSID";
+const char* password = "WIFI-PASSWORD";
 
 // === Google Sheets ===
-const String googleScriptUrl = "https://script.google.com/macros/s/AKfycbyP0-YSTKLdTgF2TgkYcLVTxOd43FvPfO74bvixgwYAnK6rdPYTOUA0s3P4f8siX16OIg/exec";
+const String googleScriptUrl = "GOOGLE-SHEET-LINK";
 
 // === Telegram Bot ===
-const String botToken = "7603445630:AAFPw-j9MLfrrAp8fOsKrxIzeTeAQ9KKHgI";
-const String chatID = "285672416";
+const String botToken = "YOUR-TELEGRAM-BOT-TOKEN";
+const String chatID = "BOT-CHAT-ID";
 
 // === Fault Detection ===
 bool faultReported = false;
